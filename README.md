@@ -1,4 +1,4 @@
 njsp-templates
 ==============
 
-NodeJS Project Creator Template
+NodeJS Project Creator Templates
