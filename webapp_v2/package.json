@@ -1,0 +1,18 @@
+{
+  "name": "WebappTemplate",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Your name",
+  "main": "server/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fradinni/njsp-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fradinni/njsp-templates/issues"
+  },
+  "scripts": {
+    "install": "cd server;npm install;cd ../client;bower install",
+    "start": "node server/server.js"
+  }
+}
