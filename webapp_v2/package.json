@@ -14,5 +14,10 @@
   "scripts": {
     "install": "cd server;npm install;cd ../client;bower install",
     "start": "node server/server.js"
+  },
+  "dependencies": {
+    "connect-mongo": "~0.4.0",
+    "passport": "~0.1.17",
+    "passport-google": "~0.3.0"
   }
 }

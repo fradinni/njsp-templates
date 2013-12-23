@@ -7,6 +7,7 @@ var express = require('express');
 var PORT          = process.env.PORT || 5000;
 var PUBLIC_DIR    = path.normalize(__dirname+'/../client');
 var TEMPLATES_DIR = path.normalize(PUBLIC_DIR + '/templates');
+var MONGOHQ_URL   = process.env.MONGOHQ_URL;
 
 // Create new express application
 var app = express();
